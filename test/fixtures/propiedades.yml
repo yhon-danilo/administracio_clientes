@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nombre: MyString
+  direccion: MyString
+  valor: 9.99
+  estrato: 1
+  persona_id: 
+
+two:
+  nombre: MyString
+  direccion: MyString
+  valor: 9.99
+  estrato: 1
+  persona_id: 

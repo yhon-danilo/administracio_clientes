@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @propiedad.nombre %>
+</p>
+
+<p>
+  <strong>Direccion:</strong>
+  <%= @propiedad.direccion %>
+</p>
+
+<p>
+  <strong>Valor:</strong>
+  <%= @propiedad.valor %>
+</p>
+
+<p>
+  <strong>Estrato:</strong>
+  <%= @propiedad.estrato %>
+</p>
+
+<p>
+  <strong>Persona:</strong>
+  <%= @propiedad.persona %>
+</p>
+
+<%= link_to 'Edit', edit_persona_propiedad_path(@persona, @propiedad) %> |
+<%= link_to 'Back', persona_propiedades_path(@persona) %>
